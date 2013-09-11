@@ -1,0 +1,34 @@
+<html>
+
+<head>
+	<script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+	<script src="todo.js"></script>
+
+	<script type="text/javascript">
+
+		$( document ).ready(function() {
+
+			todoModule.init();
+		 
+		});
+
+	</script>
+
+</head>
+
+<body>
+
+	<form>
+		Tasks: 
+		<input type="text" name="descriptionTask" id="descriptionTask">
+		<input type="date" name="dateTask" id="dateTask">
+		<input type="button" name="btnAdd" id="btnAdd" value="add">
+		<div id="lists">
+			<ul id="ul-listOfTasks"></ul>
+		</div>
+	</form>
+
+
+</body>
+
+</html>
